@@ -1,0 +1,33 @@
+/* Meu primeiro arquivo css */
+
+/* Remover configs padrões do navegador */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: green;
+    height: 100px;
+}
+
+
+/* ID's */
+#div_esq{
+    background-color: hotpink;
+    min-height: 200px;
+    width: 70%;
+    float: left; /* colocar div a esquerda */
+}
+#div_dir{
+    background-color: indigo;
+    min-height: 200px;
+    width: 30%;
+    float: right; /* colocar div a direita */
+}
+
+footer{
+    clear: both; /* limpa propriedade float pra trazer este elemento de volta */
+    background-color: khaki;
+    min-height: 200px;
+}
