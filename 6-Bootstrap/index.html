@@ -2,49 +2,68 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <TItle>Bootstrap</TItle>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
 
     <title>Testando css</title>
 
 </head>
 <body>
-   
-        <header>
-            <div class="container" >
 
-                <div id="logo">
-                    <img id="logo_html_left" width="15%" src="../Resources/fullstacklogo1-1.png">  
-                </div>
-                    
-                <div id="menu">
-                    <a href="#">Home</a>
-                    <a href="#">Quem somos</a>
-                    <a href="#">Serviços</a>
-                    <a href="#">Fale conosco</a>
-                </div>
-
-            </div> 
-
-        </header>
-
-        <div id="div_principal">
-            <div class="efeito">
-                <div class="container">
-                    <h1>Mas o que raios é 'HTML5'?</h1>
-                    <p>
-                        HTML é uma linguagem de marcação utilizada na construção de páginas na Web. 
-                        Documentos HTML podem ser interpretados por navegadores. A tecnologia é fruto da 
-                        junção entre os padrões HyTime e SGML. HyTime é um padrão para a representação
-                        estruturada de hipermídia e conteúdo baseado em tempo.
-                    </p>
-                </div>
-            </div>
+    <div class="container" style="background-color: #000; height: 500px;">
+        <div class="row">
+            <div class="col-md-12" style="background-color: greenyellow; height: 150px;">Verde</div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-8" style="background-color: red; height: 300px;">Vermelho</div>
+            <div class="col-md-4" style="background-color: blue; height: 300px;">Azul</div>
         </div>
 
-        <footer>Desenvolvido por xXHachimanXx</footer>
+        <div class="row">
+            <div class="col-md-12" style="background-color: yellow; height: 50px;">Amarelo</div>
+            <span class="label label-default">Default</span> 
+            <span class="label label-primary">Primary</span> 
+            <span class="label label-success">Success</span> 
+            <span class="label label-info">Info</span> 
+            <span class="label label-warning">Warning</span> 
+            <span class="label label-danger">Danger</span>
+        </div>
+    </div>
 
-        <script src="./main.js"></script>
+    <div class="container" style="padding: 70px 0 0 0;">
+        <table class="table table-condensed table-striped table-bordered table-hover">
+            <tr><th>Nucleotídeo</th> <th>Código</th> </tr>
+            <tr>
+                <td>Adenina</td>
+                <td>A</td>
+            </tr>
+            <tr>
+                <td>Guanina</td>
+                <td>G</td>
+            </tr>
+            <tr>
+                <td>Timina</td>
+                <td>T</td>
+            </tr>
+            <tr>
+                <td>Citosina</td>
+                <td>T</td>
+            </tr>        
+
+        </table>
+    </div>
+
+
+    <footer>            
+        <script src="../node_modules/jquery/src/jquery.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+    </footer>
+
       
 </body>
 </html>
